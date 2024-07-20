@@ -1,0 +1,126 @@
+header{
+  /* background-color: yellow; */
+  background-clip: border-box;
+  font-size: 2.5vw;
+  padding-top: -5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+}
+h1{
+  background-color: rgb(84, 173, 251);
+  border: 10px solid rgb(255, 184, 91);
+  color: #fff;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.titres{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+div.construction{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+}
+p.excuse{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(84, 173, 251);
+  border: 10px solid rgb(255, 184, 91);
+  color: #fff;
+  text-align: center;
+}
+div.Micromania{
+  padding-top: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+}
+a.micromania{
+  display: block;
+  border: 10px solid #fff;
+  height: fit-content;
+  margin: auto;
+}
+/* div.Micromania:hover a.micromania{
+  border: none;
+  transition: 1.5s;
+} */
+body{
+  font-size: 25px;
+  background-image: url(../img/LOGO.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+nav.Menu_Principale{
+  background-color: rgb(84, 173, 251);
+  /* vertical-align: top; */
+  /* background: 5px; */
+}
+nav.Menu_Principale ul{
+  /* display: block; */
+  list-style-type: none;
+  /* margin-inline-start: none; */
+  /* word-spacing: 5%; */
+  text-align: center;
+}
+.Menu_Principale ul li{
+  list-style-image:none;
+  display: inline-block;
+  line-height: 50px;
+  /* width: 100%;
+  height: 50px;  */
+}
+.Menu_Principale ul li a{
+  text-decoration: none;
+  background-color: rgb(84, 173, 251);
+  /*border: 5px solid rgb(255, 184, 91) ;*/
+  color: #fff;
+  width: 100%;
+  padding: top 100% bottom 100%;
+}
+.Menu_Principale ul li:hover a{
+  background-color: #fff;
+  color: rgb(84, 173, 251);
+  transition: 0.5s;
+  /* height: 50px; */
+}
+nav.Menu_Marque{
+  width: 4cm;
+  height: 3.2cm;
+  background-color: rgb(84, 173, 251);
+  display: inline-block;
+  /* width: 10%;
+  max-width: 10%; */
+
+}
+nav.Menu_marque ul li{
+  list-style-type: none;
+  text-align: center;
+}
+nav.Menu_Marque ul li a{
+  background-color: rgb(84, 173, 251);
+  color: #fff;
+  text-decoration: none;
+  /* display: flexbox; */
+}
+nav.Menu_Marque ul li:hover a{
+  background-color: #fff;
+  color: rgb(84, 173, 251);
+  transition: 0.5s;
+  /* display: flexbox; */
+}
+footer{
+  background-color: black;
+}
+p.end{
+  font-style: oblique;
+  color: white;
+  padding-left: 5%;
+}
